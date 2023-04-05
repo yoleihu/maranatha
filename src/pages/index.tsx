@@ -10,10 +10,10 @@ export default function Home() {
           <Image src={logojs} alt="logojs" width={150} />
           <Tabs.Root defaultValue="tab1">
             <Tabs.List className="flex flex-row gap-2">
-              <Tabs.Trigger value="tab1" className="ease-in duration-300 px-2 py-1 flex rounded-full items-center justify-center text-sm font-semibold leading-none text-zinc-400 select-none hover:text-blue-700 data-[state=active]:text-blue-500 data-[state=active]:bg-blue-200 outline-none">
+              <Tabs.Trigger value="tab1" className="ease-in duration-300 px-2 py-1 flex rounded-full items-center justify-center text-sm font-semibold leading-none text-zinc-400 select-none hover:text-sky-500 data-[state=active]:text-sky-700 data-[state=active]:bg-sky-100 outline-none">
                 Pagina inicial
               </Tabs.Trigger>
-              <Tabs.Trigger value="tab2" className="ease-in duration-300 px-2 py-1 flex rounded-full items-center justify-center text-sm font-semibold leading-none text-zinc-400 select-none hover:text-blue-700 data-[state=active]:text-blue-500 data-[state=active]:bg-blue-200 outline-none">
+              <Tabs.Trigger value="tab2" className="ease-in duration-300 px-2 py-1 flex rounded-full items-center justify-center text-sm font-semibold leading-none text-zinc-400 select-none hover:text-sky-500 data-[state=active]:text-sky-700 data-[state=active]:bg-sky-100 outline-none">
                 Dúvidas frequentes
               </Tabs.Trigger>
             </Tabs.List>
@@ -29,7 +29,7 @@ export default function Home() {
                   <span>
                     Quer fazer parte disso?
                   </span>
-                  <button className="flex w-fit bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                  <button className="flex w-fit bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-4 border border-sky-600 rounded">
                     Cadastre-se
                   </button>
                 </div>
